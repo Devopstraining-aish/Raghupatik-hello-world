@@ -1,3 +1,3 @@
 # maven-project
 
-Built/Deploy Maven JAR Project1
+Built/Deploying Maven JAR Project1
