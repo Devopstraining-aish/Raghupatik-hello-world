@@ -1,0 +1,24 @@
+pipeline {
+  ageny ageny
+  
+  stages('CI'){
+      stage('Checkout'){
+          steps {
+              echo "checkout"
+          }
+      }
+
+      stage('build'){
+          steps {
+              echo "Build"
+          }
+      }
+
+      stage('Test'){
+          steps {
+              echo "Test"
+          }
+      }
+  }
+
+}
